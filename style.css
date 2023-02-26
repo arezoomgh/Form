@@ -1,0 +1,95 @@
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.left-part{
+    width: 45%;
+    background-image: url(./back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 70%;
+    margin-top: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.pic{
+    width: 50px;
+    height: 50px;
+    background-image: url(./catcher.png);
+    background-size: contain;
+    margin: 15px;
+}
+
+.right-part{
+    color: white;
+    width: 55%;
+    margin: 18px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    font-size: large;
+    margin-bottom: 54px;
+}
+
+.top{
+    margin-top: 34px;
+   
+    font-size: x-large;
+    text-shadow: 3px 3px 17px #fff, 0 0 7px aquamarine;
+}
+
+h3{
+    margin: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+
+.sub{
+    margin-top: 24px;
+}
+
+.button{
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 24px;
+    margin-top: 26px;
+    font-weight: bold;
+}
+
+.button:hover{
+    transform: scale(1.1, 1.1);
+    transition: ease-in-out;
+}
+
+.link{
+    color: aquamarine;
+}

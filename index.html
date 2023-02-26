@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="left-part">
+            <div class="logo">
+                <div class="pic"></div>
+                <h1>CATCHER</h1>
+            </div>
+        </div>
+        <div class="right-part">
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                     ex ea commodo consequat.</p>
+                <p class="top"><em>Follow Your Dreams...</em></p>
+            </div>
+            
+            <h3>Let's Start!</h3>
+            <form action="#">
+                
+                        <div class="input-group">
+                            <div class="form-group">
+                                <label for="fname">First Name:</label>
+                                <input type="text" class="form-control" id="fname" name="fname">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="lname">Last Name:</label>
+                                <input type="text" class="form-control" id="lname" name="lname">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com">
+                            </div>
+                        </div>
+                            
+                        <div class="input-group">
+                            <div class="form-group">
+                                <label for="number">Phone Number:</label>
+                                <input type="text" class="form-control" id="number" name="number" minlength="8" maxlength="15">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="cpassword">Confirm Password:</label>
+                                <input type="password" class="form-control" id="cpassword" name="cpassword" required>
+                            </div>
+                        </div>
+            </form>
+
+            <div class="sub">
+                <button type="button" class="button">Create Account</button>
+                <p>Already have an account?  <a class="link" href="#"> Log In</a></p>
+            </div>
+        </div>
+    </div>
+</body>
